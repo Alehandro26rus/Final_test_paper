@@ -29,6 +29,7 @@ public class Program
                 count--; // Уменьшаем count после добавления элемента
             }
         }
-
+        // Вывод результатов
+        Console.WriteLine("[" + string.Join(", ", result) + "]");
     }
 }
