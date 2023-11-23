@@ -16,5 +16,9 @@ public class Program
                 count++;
             }
         }
+        // Создаем новый массив для хранения результатов
+        string[] result = new string[count];
+
+
     }
 }
